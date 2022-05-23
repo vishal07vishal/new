@@ -1,0 +1,98 @@
+.content{
+    text-align: center;
+    background-color: yellow;
+    width: 100%;
+    min-height: 150vh;
+}
+.bold{
+    font-size: 50px;
+   
+}
+.main_content{
+    width: 50%;
+    margin-left: 25%;
+    
+}
+.one{
+    margin: 10% 0% 0% 10%;
+    width: 100px;
+    height: 100px;
+   border: 1px;
+    display: inline-block;
+}
+.ones{
+    background-color: gray;
+    animation: ones alternate-reverse 5s infinite 1s ease-in-out;
+}
+@keyframes ones {
+    30%{
+        transform: skewX(20deg);
+    }
+    60%{
+        transform: skewX(-20deg);
+    }
+}
+.twos{
+    background-color: white;
+    animation: twos infinite 5s alternate-reverse;
+}
+@keyframes twos{
+    0%{
+        transform: skewY(40deg);
+    }
+    100%{
+        transform: skewY(-40deg);
+    }
+}
+.threes{
+    background-color: green;
+    animation: threes 3s infinite 0s;
+}
+@keyframes threes{
+    0%{
+        transform: rotate(0deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.fours{
+    background-color: rgb(135, 229, 135);
+    animation: alternate fours 4s infinite 0s ;
+}
+@keyframes fours{
+    0%{transform: rotateX(60deg);
+  }
+  100%{
+      transform: rotateX(-60deg);
+  }
+}
+.fourss{background-color: brown;
+    animation: fourss 4s infinite 0s alternate;
+
+}
+@keyframes fourss{
+    0%{
+        transform: rotateY(60deg);
+    }
+    100%{
+        transform: rotateY(-60deg);
+    }
+}
+.foursss{
+    background-color: fuchsia;
+    animation: foursss 2s alternate infinite 0s;
+}
+@keyframes foursss{
+    0%{
+        transform: rotate(20deg);
+    }
+    100%{
+        transform: rotate(-90deg);
+    }
+}
+.page{
+    padding-top:50px;
+    font-size: 30px;
+}

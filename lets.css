@@ -1,0 +1,26 @@
+.head{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.grid-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 10px 100px;
+    gap: 35px;
+
+}
+.grid{
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+    transition: 1s all linear 0s ;
+}
+.grid3:hover{
+    width: 300px;
+    
+}
+.grid2:hover{
+    width: 200px;
+    height: 200px;
+}

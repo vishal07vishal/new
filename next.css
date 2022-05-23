@@ -1,0 +1,14 @@
+.top{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.sun{
+  height: 90px;
+  width: 90px;
+    
+    position: absolute;
+    right: 10px;
+animation: sun 40s linear infinite 0s;
+    
+}

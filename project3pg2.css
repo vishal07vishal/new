@@ -1,0 +1,62 @@
+.test {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.circle2 {
+    background-color: rgb(219, 48, 48);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: -32px;
+    padding: 5px;
+    color: aliceblue;
+    padding-top: 5px;
+    font-size: 20px;
+    
+}
+.circle1 {
+    color: aliceblue;
+    background-color: rgb(219, 48, 48);
+    width: 25px;
+    height: 30px;
+   padding-left:  3px;
+    
+    
+    border-radius: 50%;
+    margin-left: 230px;
+    margin-top: 350px;
+    font-size: 25px;
+}
+.box1 {
+    color: coral;
+    height: 310px;
+    width: 220px;
+    border: 1px solid rgb(228, 84, 84);
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(107 101 101);
+    margin-top: -300px;
+    margin-left: 50px;
+}
+.line1 {
+    width: 165px;
+    margin-right: 1px;
+}
+.red1 {
+    color: rgba(241, 66, 66, 0.726);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+.check1 {
+    color: black;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: -40px;
+}
+
